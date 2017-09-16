@@ -1,8 +1,8 @@
 addons:
   apt:
     packages:
-    - cmake
-		- libsfml-dev
+      - cmake
+      - libsfml-dev
 
 # Enable C++ support
 language: cpp
@@ -15,4 +15,4 @@ compiler:
 script:
   - mkdir build
   - cd build
-	- cmake ${TRAVIS_BUILD_DIR} && make
+  - cmake ${TRAVIS_BUILD_DIR} && make
