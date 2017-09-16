@@ -10,12 +10,5 @@
   $ ./PreLevelMap maze.png 1 2 100 150
 ```
 
-## Как помочь проекту
-  1. Нажать на кнопку `Fork` 
-     ![](https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png)
-  2. Вас отправит на ваш репозиторий в котром вы можете изменять исходники.
-  3. Отправте Pull Request. 
-     ![](https://guides.github.com/activities/hello-world/pr-tab.gif)
-
 ## Пример вывода
 ![](screenshot/screen1.png)
