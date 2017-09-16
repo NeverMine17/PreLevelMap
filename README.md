@@ -1,4 +1,16 @@
 # PreLevelMap
+
+<table>
+  <tr>
+    <th>Master</th>
+    <th>Dev</th>
+  </tr>
+  <tr>
+    <td>[![Build Status](https://travis-ci.org/IngenerkaTeamNewYork/PreLevelMap.svg?branch=master)](https://travis-ci.org/IngenerkaTeamNewYork/PreLevelMap)</td>
+    <td>[![Build Status](https://travis-ci.org/IngenerkaTeamNewYork/PreLevelMap.svg?branch=dev)](https://travis-ci.org/IngenerkaTeamNewYork/PreLevelMap)</td>
+  </tr>
+</table>
+
 Прототип проекта "карта уровня игры".
 Пока что есть только лабиринт и поиск короткого пути.
 Нужно ещё сделать игру.
