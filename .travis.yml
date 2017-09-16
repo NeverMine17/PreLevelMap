@@ -10,6 +10,7 @@ language: cpp
 # Compiler selection
 compiler:
   - gcc
+  - clang 
 
 # Build steps
 script:
