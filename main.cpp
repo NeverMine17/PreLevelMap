@@ -172,7 +172,7 @@ int main(int argc, char **argv) {
     sf::Sprite imageS(imageT);
 
     // Declare and create a new window
-    sf::RenderWindow window(sf::VideoMode(321, 321), "A* algorithm");
+    sf::RenderWindow window(sf::VideoMode(image.getSize().x, image.getSize().y), "A* algorithm");
     // Limit the framerate to 60 frames per second (this step is optional)
     window.setFramerateLimit(60);
     // The main loop - ends as soon as the window is closed
