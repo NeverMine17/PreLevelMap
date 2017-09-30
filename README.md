@@ -1,21 +1,46 @@
-# PreLevelMap
-Прототип проекта "карта уровня игры".
-Пока что есть только лабиринт и поиск короткого пути.
-Нужно ещё сделать игру.
+# A* SFML
+Example of A* in C++.
+Also to display code I'm using a libary called SFML.
 
-## Параметры
-Если мы хотим найти путь на картинке `maze.png` от координат 1 и 2 до 100 и 150 мы пишем:
+In this code, white pixels means that this path is walkable. Any other pixel that is not white is wall.
+
+I have started this code using an example from [`Sahnvour/PathFinder`](https://github.com/Sahnvour/PathFinder).
+
+```
+Copyright (c) 2015, Antoine Vugliano
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+## Example input
+If we want to find a path in `maze.png` from coordinates x=1, y=2 to x=100, y=150 type in console:
 
 ```sh
   $ ./PreLevelMap maze.png 1 2 100 150
 ```
 
-## Как помочь проекту
-  1. Нажать на кнопку `Fork` 
-     ![](https://upload.wikimedia.org/wikipedia/commons/3/38/GitHub_Fork_Button.png)
-  2. Вас отправит на ваш репозиторий в котром вы можете изменять исходники.
-  3. Отправте Pull Request. 
-     ![](https://guides.github.com/activities/hello-world/pr-tab.gif)
-
-## Пример вывода
+## Example output
 ![](screenshot/screen1.png)
+
+## Licence
+This code licenced under MIT licence. See `LICENCE` for more details.
